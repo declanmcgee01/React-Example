@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <p>
+          <div>
             <HelloComponent exampleProp ='Hello' />
             <HelloComponent exampleProp ='Hi' />
             <HelloComponent exampleProp ='Hey' />
@@ -19,7 +19,7 @@ class App extends Component {
             <IncrementComponent exampleNumber/>
             <SumComponent sum/>
             
-          </p>
+          </div>
           <a
             className="App-link"
             href="https://reactjs.org"
